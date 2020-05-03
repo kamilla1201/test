@@ -16,7 +16,7 @@ def get_answer_from_qa_api(question):
 
 for question in questions:
     print("----------------------------------")
-    print("Getting results from Quick Answers API")
+    print("Getting results from MS API")
     print("----------------------------------")
     print("Question: " + question)
     print("----------------------------------")
