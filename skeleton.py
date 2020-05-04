@@ -10,7 +10,7 @@ questions = [
 def get_answer_from_qa_api(question):
     pass
 
-def get_answer_from_qa_api(question):
+def get_answer_from_ms_api(question):
     pass
 
 
@@ -20,7 +20,7 @@ for question in questions:
     print("----------------------------------")
     print("Question: " + question)
     print("----------------------------------")
-    print(get_answer_from_qa_api(question))
+    print(get_answer_from_ms_api(question))
     print("----------------------------------")
 
 for question in questions:
