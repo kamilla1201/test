@@ -29,5 +29,5 @@ for question in questions:
     print("----------------------------------")
     print("Question: " + question)
     print("----------------------------------")
-    print(get_answer_from_ms_api(question))
+    print(get_answer_from_qa_api(question))
     print("----------------------------------")
