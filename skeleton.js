@@ -28,7 +28,7 @@ async function print_qa_results() {
 }
 
 async function print_ms_results() {
-	console.log("Part 1. Getting results from Microsoft Project Answer Search API");
+	console.log("Part 2. Getting results from Microsoft Project Answer Search API");
 	console.log("----------------------------------");
 	for (let i = 0; i < questions.length; i++) {
 		let question = questions[i];
